@@ -50,3 +50,4 @@ For loops can be writen with in statements and range statements.
         if we did range(0, 4, 2), we would see 0 and 2, but it would skip 1 and 3.
         So, if we wanted to go backwards, we would just have to swap 0 and 4 and countBy a negative
  Ranges are also end-excluding, so in range(4), we will never reach 4.
+ 
