@@ -17,20 +17,15 @@ Find the function timeOut(timer).
 Your child got upset because you did not read her grocery list correctly, and now she is in time out. Make a list of numbers counting down from timer to 1 until she gets out of timeout.
 
 For example, 
+```python
+timeOut(4) # should return \[4, 3, 2, 1].
+timeOut(2) # should return \[2, 1]
 ```
-timeOut(4)
-```
-should return \[4, 3, 2, 1].
-```
-timeOut(2) 
-```
-should return \[2, 1]
-
 # Step Three: Test timeOut(timer)
 How do you test code? You simply add the lines to your python file (in the future, you will have test lines in separate files).
 
 As such, we would recommend adding the following just above def main().
-```
+```python
 print("TESTING", timeOut(4)) 
 print("TESTING", timeOut(2)) 
 ```
@@ -53,19 +48,8 @@ for i in list:
 ```          
 # Range
 Ranges actually have 3 arguments, but 2 of them are optional. With:
-```
-        range(4)
-```
-This is really range(0, 4, 1), where it goes range(start, end, countBy)
-If we did 
-```
-range(0, 4, 2)
-```
-We would see 0 and 2, but it would skip 1 and 3.
+`range(4)`, this is really `range(0, 4, 1)`, where it goes range(start, end, countBy)
+
+If we did `range(0, 4, 2)`, we would see 0 and 2, but it would skip 1 and 3.
 So, if we wanted to go backwards, we would just have to swap 0 and 4 and countBy a negative
-Ranges are also end-excluding, so in 
-```
-range(4)
-```
-we will never reach 4.
- 
+Ranges are also end-excluding, so in `range(4)` we will never reach 4.
