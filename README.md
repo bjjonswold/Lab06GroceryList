@@ -5,7 +5,7 @@ List + For-Loop warmup
 Review the code provided. Answer the following questions by adding comments to your code! You are free to talk with other students, and seek better understanding to these questions. See below for reminders on types, variables, and input
 
 # Step One
-Answer the following questions about the code provided as comments in the code:
+Complete the following questions in the comments at the top of your code. If your answer is multiple lines, use these: \``` around your answer:
 1. What is the output and its type for itemFetching(num)? For itemFetching(6)?
 2. Find the comment in itemFetching(). What happens to our output if we tab that line so it lines up with the line above it? What would itemFetching(6) be?
 3. What is the output and its type for itemSorting(lst)? What is the output for itemSorting(\[3, 7, "peas", 2.25, "carrots", 1, 5.3])?
