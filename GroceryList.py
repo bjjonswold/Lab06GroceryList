@@ -1,3 +1,10 @@
+'''
+1. The output would be a list of numbers within the range of num. 
+    For itemFetching(6), the output would be [1, 2, 3, 4, 5, 6, "got them all!"]
+2. There would be a "Got them all!" after each number in the list
+3. The output would be a list of strings. The output would be 
+4. myFavoriteThings = [17, 0.2, "Phantom of the Opera"]
+'''
 #input: num--number of items to get
 #output: you figure this out!
 def itemFetching(num):
@@ -28,6 +35,10 @@ def itemSorting(lst):
 #input: timer--number of seconds in time out
 #output: countDown-- a list with the timer counting down until 0
 def timeOut(timer):
-  countDown = []
-  #student code
-  return countDown
+    countDown = []
+    for i in range(timer, 0, -1):
+        countDown.append(i)
+    return countDown
+
+print("TESTING", timeOut(4)) 
+print("TESTING", timeOut(2)) 
